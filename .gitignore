@@ -1,0 +1,53 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build output
+/build/
+/dist/
+happy-health-backend
+
+# Dependency directories (Go Modules won't need vendor if you're not vendoring)
+vendor/
+
+# Go workspace file (Go 1.18+)
+go.work
+go.work.sum
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+logs/
+log/
+
+# IDE specific (VSCode, Goland, etc.)
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Coverage reports
+coverage.out
+
+# Database dump files
+*.sql
+
+# Fiber specific (nothing specific but in case of uploads/temp)
+tmp/
+uploads/
